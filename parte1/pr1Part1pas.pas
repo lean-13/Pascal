@@ -1,3 +1,8 @@
+(*
+1. Realizar un programa que lea 2 números enteros desde teclado e informe en pantalla cuál de los
+dos números es el mayor. Si son iguales debe informar en pantalla lo siguiente: “Los números leídos
+son iguales”.
+*)
 program pr1part1;
 var
 	nr1, nr2:integer;
