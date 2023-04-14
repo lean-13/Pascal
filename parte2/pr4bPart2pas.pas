@@ -7,23 +7,24 @@ b. Modifique el ejercicio anterior para que, en vez de leer 1000 números, la le
 el número 0, el cual no debe procesarse
 *)
 
-program pr4;
+program pr4b;
 var
-	i, Nr, Min1, Min2: integer;
+	Nr, Min1, Min2: integer;
 
 begin
 	Min1:= 10000;
 	Min2:= 10000;
+	Nr:= 10000;
 
-	for i:= 1 to 1000 do
+	while (Nr <> 0) do
 	begin
 		writeln('Ingrese un numero entero: ');
 		read(Nr);
 
-		if (Nr < Min1) then
+		if ((Nr < Min1) and (Nr <> 0)) then
 			Min1:= Nr
 		else
-			if (Nr < Min2) then
+			if ((Nr < Min2) and (Nr <> 0)) then
 				Min2:= Nr;
 
 	end;
