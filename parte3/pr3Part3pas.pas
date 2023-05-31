@@ -79,7 +79,7 @@ program MinisterioEducacion;
 		Cue1:= -1;
 		Cue2:= -1;
 
-		for i:= 1 to 4 do begin
+		for i:= 1 to 2400 do begin
 			Lectura(R, LaPlataProporcionDocenteAlumno, Cue1, Cue2, EscuelaPro1, EscuelaPro2);
 		end;
 		
